@@ -11,6 +11,7 @@ p {
   padding: 15px 25px;
   background-color: #151515;
   border-radius: 5px;
+  margin-bottom: 40px;
   border: 1px solid #222222;
 
 }
@@ -133,58 +134,4 @@ p {
 }
 .form-control:hover , .form-select:hover {
   border: 1px solid rgb(255, 255, 255, 0.5);
-}
-
-@media only screen and (max-width : 1500px) {
- 
-}
-@media only screen and (max-width : 1200px) {
- 
-
-}
-/* 
-@media only screen and (max-width : 992px) {
-} */
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-  .form-group {
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 10px;
-  }
-  .btn-primary {
-    padding: 15px;
-  }
-  .website-title {
-    margin-bottom: 20px;
-  }
-  .generated-text p {
-    font-size: 18px;
-  }
-  .generated-text {
-    padding: 15px;
-  }
-  .form-control-number {
-    max-width: 100%;
-  }
-  .form-select,
-  .form-control-number {
-    padding: 15px;
-  }
-  .btn-secondary {
-    padding: 15px;
-    min-width: 100%; 
-  }
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
-}
-
-/* Custom, iPhone Retina */ 
-/* @media only screen and (max-width : 320px) {
-
-} */
-@media only screen and (max-height : 425px) {
 }

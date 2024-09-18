@@ -4,6 +4,7 @@ import { Input } from "./Components/Input";
 import { CopyBtn } from "./Components/CopyBtn";
 import axios from 'axios';
 import "./App.css";
+import "./styles/responsive.css";
 
 function randomIntFromInterval(min, max) {
   // min and max included
