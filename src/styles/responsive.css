@@ -17,7 +17,8 @@
     margin-bottom: 10px;
   }
   .btn-primary {
-    padding: 15px;
+    padding: 13px 15px;
+    font-size: 14px;
   }
   .content {
     margin-top: 50px;
@@ -36,11 +37,16 @@
   }
   .form-select,
   .form-control-number {
-    padding: 15px;
+    padding: 13px 15px;
+    font-size: 14px;
   }
   .btn-secondary {
-    padding: 15px;
+    padding: 13px 15px;
     min-width: 100%; 
+    font-size: 14px;
+  }
+  .generated-text p {
+    font-size: 16px;
   }
 }
 
