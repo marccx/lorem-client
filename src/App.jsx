@@ -6,10 +6,6 @@ import axios from 'axios';
 import "./App.css";
 import "./styles/responsive.css";
 
-function randomIntFromInterval(min, max) {
-  // min and max included
-  return Math.floor(Math.random() * (max - min + 1) + min);
-}
 function App() {
   let [params, setParams] = useState({
     inputValue: 5,
